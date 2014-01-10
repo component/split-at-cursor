@@ -9,11 +9,27 @@
 
     $ component install component/split-at-cursor
 
+## Example
+
+```js
+var editor = document.getElementById('editor');
+var parent = editor.parentNode;
+
+btn.onclick = function() {
+  var el = split(editor);
+  var hr = document.createElement('hr');
+
+  // insert after editor
+  parent.insertBefore(hr, editor.nextSibling);
+  parent.insertBefore(el, editor.nextSibling);
+}
+```
+
 ## API
 
 ### split(el)
 
-Split the element at the cursor
+Split the element at the cursor. Returns a document fragment containing the right half of the DOM tree.
 
 ## Test
 
