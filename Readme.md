@@ -28,7 +28,7 @@ btn.onclick = function() {
 
 ### split(el)
 
-Split the element at the cursor. Returns a document fragment containing the right half of the DOM tree.
+Split the DOM tree of `el` at the cursor. Returns a clone of `el` containing the right half of the DOM tree.
 
 ## Test
 
