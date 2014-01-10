@@ -19,9 +19,8 @@ btn.onclick = function() {
   var el = split(editor);
   var hr = document.createElement('hr');
 
-  // insert after editor
-  parent.insertBefore(hr, editor.nextSibling);
-  parent.insertBefore(el, editor.nextSibling);
+gca   parent.appendChild(hr);
+  parent.appendChild(el);
 }
 ```
 
