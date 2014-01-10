@@ -19,7 +19,7 @@ btn.onclick = function() {
   var el = split(editor);
   var hr = document.createElement('hr');
 
-gca   parent.appendChild(hr);
+  parent.appendChild(hr);
   parent.appendChild(el);
 }
 ```
