@@ -1,0 +1,17 @@
+{
+  "name": "split-at-cursor",
+  "repo": "component/split-at-cursor",
+  "description": "split element blocks at the cursor. useful for separating contenteditable blocks.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {
+    "component/domify": "*",
+    "component/assert": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}

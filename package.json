@@ -1,0 +1,7 @@
+{
+  "name": "split-at-cursor",
+  "version": "0.0.1",
+  "devDependencies": {
+    "component-test": "*"
+  }
+}
