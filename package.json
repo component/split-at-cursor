@@ -1,7 +1,7 @@
 {
   "name": "split-at-cursor",
   "description": "split element blocks at the cursor. useful for separating contenteditable blocks.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "keywords": [],
   "dependencies": {},
