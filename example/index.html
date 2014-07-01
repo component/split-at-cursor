@@ -1038,7 +1038,8 @@ pressius.
     }
 
     btn.onclick = function(e) {
-      var el = split('[contenteditable]');
+      var target = editor;
+      var el = split(target);
       el.addEventListener('keydown', keydown);
       el.classList.add('split');
       if (target.nextSibling) {
