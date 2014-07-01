@@ -1,7 +1,21 @@
 {
   "name": "split-at-cursor",
+  "description": "split element blocks at the cursor. useful for separating contenteditable blocks.",
   "version": "0.0.1",
+  "main": "index.js",
+  "keywords": [],
+  "dependencies": {},
   "devDependencies": {
     "component-test": "*"
+  },
+  "license": "MIT",
+  "component": {
+    "scripts": {
+      "split-at-cursor/index.js": "index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/component/split-at-cursor.git"
   }
 }
